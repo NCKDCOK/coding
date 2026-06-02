@@ -3,5 +3,3 @@ __pycache__/
 .env
 .claude/
 s01/config.py
-s01/s01test/
-s01/logs/
