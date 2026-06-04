@@ -2,6 +2,12 @@ import sys
 import os
 import json
 import uuid
+
+if sys.platform == "win32":
+    os.system("chcp 65001 >nul 2>&1")
+    sys.stdin.reconfigure(encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8")
+
 import anthropic
 import config
 from tools import TOOLS, HANDLERS

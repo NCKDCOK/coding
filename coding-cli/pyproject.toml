@@ -1,0 +1,11 @@
+[project]
+name = "coding-cli"
+version = "0.1.0"
+description = "工程化 coding agent"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+]
+
+[project.scripts]
+coding-cli = "main:main"

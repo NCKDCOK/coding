@@ -1,0 +1,8 @@
+[llm]
+base_url = "https://your-api-endpoint.com"
+api_key = "your-api-key"
+model = "mimo-v2.5-pro"
+max_tokens = 4096
+
+[agent]
+max_rounds = 20
